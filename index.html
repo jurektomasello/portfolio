@@ -5,15 +5,23 @@
 	<title>Portfolio</title>
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Hind+Vadodara" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 </head>
 <body>
 	<nav id="navbar">
-		
+		<a href="#contact" class="navbar-links">
+			<p>Contact Me</p>
+		</a>
+		<a href="#projects" class="navbar-links">
+			<p>Projects</p>
+		</a>
 	</nav>
 
 	<section id="welcome-section">
 		<h1>Hi, I am an aspiring web developer</h1>
-		<h2>Wanna see some of my current projects?</h2>
+		<a href="#projects">
+			<h2>Wanna see some of my current projects?</h2>
+		</a>
 	</section>
 
 	<section id="projects">
@@ -37,6 +45,17 @@
 			</div>
 		</div>
 	</section>
+
+	<div id="contact">
+		<h1>You can find me here</h1>
+		
+		<a href="https://github.com/jurektomasello" target="_blank">
+			<button class="contact-btn"><i class="fab fa-github"></i></button>
+		</a>
+		<a href="https://www.freecodecamp.org/parashut" target="_blank">
+			<button class="contact-btn"><i class="fab fa-free-code-camp"></i></button>
+		</a>
+	</div>
 
 </body>
 </html>
